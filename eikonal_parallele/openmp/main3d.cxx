@@ -78,9 +78,9 @@
     writeVTKFile("closest_FSM_200_n" ,closest_fsm,h);
     writeVTKFile("closest_erreur_200_n" ,closest_erreur,h);
     
-    writeMatrixToFile(T_fim,"/ccc/work/cont001/ocre/demutha/results/FIM_result.txt") ;
-    writeMatrixToFile(T_fsm,"/ccc/work/cont001/ocre/demutha/results/FSM_result.txt") ;
-    writeMatrixToFile(T_exact,"/ccc/work/cont001/ocre/demutha/results/exact_result.txt") ;
+    writeMatrixToFile(T_fim,"/results/FIM_result.txt") ;
+    writeMatrixToFile(T_fsm,"/results/FSM_result.txt") ;
+    writeMatrixToFile(T_exact,"/results/exact_result.txt") ;
 
     return 0;
 }

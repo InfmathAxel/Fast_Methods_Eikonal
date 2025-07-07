@@ -1,8 +1,9 @@
 #include <sstream>  // Pour construire la chaîne formatée
 #include <fstream>
 #include <random>
-#include "include/FSM2D.hpp"
-#include "include/FIM2D.hpp"
+#include "include/FSM.hpp"
+#include "include/FIM.hpp"
+#include "include/FMM.hpp"
 #include "include/random_source2D.hpp"
 #include "include/write_result2D.hpp"
 #include "include/euclidien2D.hpp"

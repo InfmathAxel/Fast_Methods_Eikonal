@@ -11,7 +11,7 @@ fig, axes = plt.subplots(len(tags), 2, figsize=(12, 12), sharex='col')  # Partag
 
 # Boucle sur les tags
 for i, tag in enumerate(tags):
-    filename = f"/ccc/work/cont001/ocre/demutha/results/length_10_n_200_n_source_5_{tag}.txt"
+    filename = f"results/length_10_n_200_n_source_5_{tag}.txt"
 
     # Expression régulière pour extraire les nombres après "length_" et "n_"
     match = re.search(r"length_(\d+)_n_(\d+)", filename)

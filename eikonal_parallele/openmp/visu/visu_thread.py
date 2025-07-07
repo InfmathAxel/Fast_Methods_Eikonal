@@ -12,9 +12,9 @@ def read_times(filename):
     return times
 
 # Read execution times for each method
-temps_FIM = read_times('/ccc/work/cont001/ocre/demutha/results/temps_FIM_threads.txt')
-temps_FSM = read_times('/ccc/work/cont001/ocre/demutha/results/temps_FSM_threads.txt')
-temps_euc = read_times('/ccc/work/cont001/ocre/demutha/results/temps_euc_threads.txt')
+temps_FIM = read_times('results/temps_FIM_threads.txt')
+temps_FSM = read_times('results/temps_FSM_threads.txt')
+temps_euc = read_times('results/temps_euc_threads.txt')
 
 # Number of threads
 n_threads = [1, 2, 4, 8, 16, 32, 64, 128]

@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Chemins des fichiers
-base_path = "/ccc/work/cont001/ocre/demutha/results/"
+base_path = "results/"
 tags = ["FSM", "FIM", "exact"]
 
 # Liste des nombres de points et de sources // A MODIFIER POUR VOS DONNEES

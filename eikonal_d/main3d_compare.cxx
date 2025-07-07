@@ -25,7 +25,7 @@ int main(int argc, char* argv[]) {
     std::vector<std::pair<int, int>> Xs;
 
     std::ostringstream filename;
-    filename << "/ccc/work/cont001/ocre/demutha/results/result_comparaison"  << ".txt";
+    filename << "/results/result_comparaison"  << ".txt";
     std::ofstream file(filename.str(), std::ios::out);
     if (!file) {
         std::cerr << "Erreur lors de l'ouverture du fichier!" << std::endl;

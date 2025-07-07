@@ -47,9 +47,9 @@ def plotMatrices3DSubplots(matrices, titles,colormap):
     plt.show()
 
 # Lire les matrices depuis les fichiers
-matrixFIM = readMatrixFromFile("/ccc/work/cont001/ocre/demutha/results/length_10_n_400_n_source_4FIM.txt")
-matrixFSM = readMatrixFromFile("/ccc/work/cont001/ocre/demutha/results/length_10_n_400_n_source_4FSM.txt")
-matrixex = readMatrixFromFile("/ccc/work/cont001/ocre/demutha/results/length_10_n_400_n_source_4eucl.txt")
+matrixFIM = readMatrixFromFile("results/length_10_n_400_n_source_4FIM.txt")
+matrixFSM = readMatrixFromFile("results/length_10_n_400_n_source_4FSM.txt")
+matrixex = readMatrixFromFile("results/length_10_n_400_n_source_4eucl.txt")
 
 matrix_error_FIM = abs(matrixFIM - matrixex)
 matrix_error_FSM = abs(matrixFSM - matrixex)

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import re
 import os
 
-filename = "/ccc/work/cont001/ocre/demutha/results/length_10_n_4000_n_source_4FSM.txt"
+filename = "results/length_10_n_4000_n_source_4FSM.txt"
 
 # Expression régulière pour extraire les nombres après "length_" et "n_"
 match = re.search(r"length_(\d+)_n_(\d+)", filename)

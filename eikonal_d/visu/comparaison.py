@@ -29,7 +29,7 @@ def plot_results(n_points, times_fmm, times_fsm, times_fim, times_exact, n_sourc
 
 
 # Lecture des résultats
-filename = "/ccc/work/cont001/ocre/demutha/results/result_comparaison_fim_fsm.txt"
+filename = "results/result_comparaison_fim_fsm.txt"
 nb_n_source = 1
 with open(filename, 'r') as file:
         lines = file.readlines()

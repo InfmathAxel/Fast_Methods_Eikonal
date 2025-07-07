@@ -60,10 +60,10 @@ int main(int argc, char* argv[])
 
     std::ostringstream path_fmm, path_fsm, path_fim, path_exact;
 
-    path_fmm << "/ccc/work/cont001/ocre/demutha/results/length_" << length << "_n_" << n << "_n_source_" << n_source << "_FMM";
-    path_fsm << "/ccc/work/cont001/ocre/demutha/results/length_" << length << "_n_" << n << "_n_source_" << n_source << "_FSM";
-    path_fim << "/ccc/work/cont001/ocre/demutha/results/length_" << length << "_n_" << n << "_n_source_" << n_source << "_FIM";
-    path_exact << "/ccc/work/cont001/ocre/demutha/results/length_" << length << "_n_" << n << "_n_source_" << n_source << "_exact";
+    path_fmm << "results/length_" << length << "_n_" << n << "_n_source_" << n_source << "_FMM";
+    path_fsm << "results/length_" << length << "_n_" << n << "_n_source_" << n_source << "_FSM";
+    path_fim << "results/length_" << length << "_n_" << n << "_n_source_" << n_source << "_FIM";
+    path_exact << "results/length_" << length << "_n_" << n << "_n_source_" << n_source << "_exact";
 
     std::string tag_fmm = path_fmm.str();
     std::string tag_fsm = path_fsm.str();

@@ -110,9 +110,9 @@
         }
     }
 
-    write_files_temps(Temps_FIM, "/ccc/work/cont001/ocre/demutha/results/temps_FIM");
-    write_files_temps(Temps_FSM, "/ccc/work/cont001/ocre/demutha/results/temps_FSM");
-    write_files_temps(Temps_euc, "/ccc/work/cont001/ocre/demutha/results/temps_exact");
+    write_files_temps(Temps_FIM, "results/temps_FIM");
+    write_files_temps(Temps_FSM, "results/temps_FSM");
+    write_files_temps(Temps_euc, "results/temps_exact");
 
     return 0;
 }

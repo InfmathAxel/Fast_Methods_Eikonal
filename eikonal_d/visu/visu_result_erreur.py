@@ -15,7 +15,7 @@ if len(tags) == 1:
 
 # Boucle sur les tags
 for i, tag in enumerate(tags):
-    filename = f"/ccc/work/cont001/ocre/demutha/results/length_10_n_1000_n_source_5_{tag}.txt"
+    filename = f"results/length_10_n_1000_n_source_5_{tag}.txt"
 
     # Expression régulière pour extraire les nombres après "length_" et "n_"
     match = re.search(r"length_(\d+)_n_(\d+)", filename)

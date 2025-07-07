@@ -2,7 +2,7 @@ import os
 import matplotlib.pyplot as plt
 
 # Chemins des fichiers
-base_path = "/ccc/work/cont001/ocre/demutha/results/"
+base_path = "/results/"
 tags = ["FSM", "FIM", "exact"]
 
 # Liste des nombres de points (doit correspondre à ce qui a été utilisé dans le C++)

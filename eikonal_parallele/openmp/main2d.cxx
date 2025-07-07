@@ -74,11 +74,11 @@
     //FIM2D(T_FIM,F,n,length,Xs,n_threads,closest_FIM,false);
     euclidien2d_seuil(T_euc,Xs,n,n,length,seuil,n_threads,closest_euc);
  
-    std::string tag_fim = "/ccc/work/cont001/ocre/demutha/results/length_10_n_4000_n_source_4FIM";
+    std::string tag_fim = "results/length_10_n_4000_n_source_4FIM";
     std::string tag_closest_fim = "Closest_fim";
-    std::string tag_fsm = "/ccc/work/cont001/ocre/demutha/results/length_10_n_4000_n_source_4FSM";
+    std::string tag_fsm = "results/length_10_n_4000_n_source_4FSM";
     std::string tag_closest_fsm = "Closest_fsm";
-    std::string tag_euc = "/ccc/work/cont001/ocre/demutha/results/length_10_n_4000_n_source_4eucl";
+    std::string tag_euc = "results/length_10_n_4000_n_source_4eucl";
     std::string tag_closest_euc = "closest_euc.txt";
 
     std::cout << "Ecriture des fichiers : " << std::endl;
